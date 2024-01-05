@@ -4,7 +4,7 @@ export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "Alveek",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Алексей Кудрявцев",
+	title: "Alveek",
 	// Meta property used as the default description meta property
 	description: "Блог на около айтишные темы: фронтенд, бэкенд, линукс и тд",
 	// HTML lang property, found in src/layouts/Base.astro L:18
