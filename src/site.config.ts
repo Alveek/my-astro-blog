@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Алексей Кудрявцев",
+	author: "Alveek",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "Алексей Кудрявцев",
 	// Meta property used as the default description meta property
@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 		locale: "ru-RU",
 		options: {
 			day: "numeric",
-			month: "short",
+			month: "numeric",
 			year: "numeric",
 		},
 	},
@@ -34,11 +34,11 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/",
 	},
 	{
-		title: "Обо мне",
-		path: "/about/",
-	},
-	{
 		title: "Блог",
 		path: "/posts/",
+	},
+	{
+		title: "Обо мне",
+		path: "/about/",
 	},
 ];

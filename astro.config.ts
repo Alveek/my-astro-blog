@@ -19,9 +19,9 @@ export default defineConfig({
 			wrap: true,
 		},
 	},
-	redirects: {
-		"/": "/posts/",
-	},
+	// redirects: {
+	// 	"/": "/posts/",
+	// },
 	integrations: [
 		mdx({}),
 		tailwind({
