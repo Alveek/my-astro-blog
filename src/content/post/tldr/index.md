@@ -8,6 +8,27 @@ tags:
 draft: false
 ---
 
+## Установка
+
+```bash
+# Nodejs
+npm install -g tldr
+
+# Pip3
+pip3 install tldr
+
+# Homebrew
+brew install tlrc
+```
+
+Также есть возможность пользоваться справочником [онлайн](https://tldr.inbrowser.app/)
+
+## Использование
+
+```bash
+$ tldr команда
+```
+
 ## Описание
 
 [tldr](https://tldr.sh/) - это утилита, которая выводит краткое описание и примеры использования какой-либо команды в терминале.
@@ -27,7 +48,7 @@ Mandatory arguments to long options are mandatory for short options too.
 ...
 ```
 
-А вот так используя tldr:
+А вот так используя **tldr**:
 
 ```bash
 $ tldr mkdir
@@ -48,12 +69,4 @@ $ tldr mkdir
 
 ```
 
-tldr выглядит намного дружелюбнее.
-
-## Установка
-
-```bash
-npm install -g tldr
-```
-
-Также есть возможность пользоваться справочником [онлайн](https://tldr.inbrowser.app/)
+**tldr** выглядит намного дружелюбнее.
