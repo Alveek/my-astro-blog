@@ -29,6 +29,10 @@
 	}
 
 	html body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-8 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-8 text-sm font-normal text-textColor antialiased;
 	}
+}
+
+html {
+	font-family: "Inter", sans-serif;
 }
