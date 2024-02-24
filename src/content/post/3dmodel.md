@@ -8,4 +8,10 @@ draft: false
 ---
 
 Model-viewer test
-<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="/model.glb" ar  shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+<div class="boxes">
+  <model-viewer alt="alt text" src="/model.glb" ar ar-scale="0.5 0.5 0.5"  shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+<model-viewer alt="alt text" src="/model2.glb" ar   shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+</div>
