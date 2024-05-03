@@ -22,9 +22,8 @@ Model-viewer test
 <div class="boxes">
   <model-viewer alt="alt text" src="/poly.glb" 
     ar 
-    ar-scale="fixed" 
+    ar-scale="auto" 
     scale="1 1 1" 
-    ar-modes="webxr scene-viewer quick-look"
     shadow-intensity="1"
     camera-controls touch-action="pan-y"></model-viewer>
 </div>
