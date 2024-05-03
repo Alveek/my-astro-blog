@@ -22,7 +22,7 @@ Model-viewer test
 <div class="boxes">
   <model-viewer alt="alt text" src="/poly.glb" 
     ar 
-    ar-scale="auto" 
+    ar-scale="fixed" 
     scale="1 1 1" 
     ar-modes="webxr scene-viewer quick-look"
     shadow-intensity="1"
