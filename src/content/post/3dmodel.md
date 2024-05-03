@@ -10,8 +10,31 @@ draft: false
 Model-viewer test
 
 <div class="boxes">
-  <model-viewer alt="alt text" src="/model.glb" ar ar-scale="0.5 0.5 0.5"  shadow-intensity="1" poster="/karyaga.png" camera-controls touch-action="pan-y"></model-viewer>
+  <model-viewer alt="alt text" src="/model.glb" 
+    ar 
+    ar-scale="auto" 
+    scale="0.1 0.1 0.1" 
+    ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="1" poster="/karyaga.png" 
+    camera-controls touch-action="pan-y"></model-viewer>
+</div>
 
-<model-viewer alt="alt text" src="/model2.glb" ar poster="/laptop.png"   shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<div class="boxes">
+  <model-viewer alt="alt text" src="/poly.glb" 
+    ar 
+    ar-scale="auto" 
+    scale="1 1 1" 
+    ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="1"
+    camera-controls touch-action="pan-y"></model-viewer>
+</div>
 
+<div class="boxes">
+  <model-viewer alt="alt text" src="/poly2.glb" 
+    ar 
+    ar-scale="auto" 
+    scale="1 1 1" 
+    ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="1"
+    camera-controls touch-action="pan-y"></model-viewer>
 </div>
